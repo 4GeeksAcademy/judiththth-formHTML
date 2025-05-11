@@ -16,21 +16,22 @@
                 <h1 class="mb-3 "> Método de pago</h1>
             </form>
 
-            <form class="row p-4 border rounded">
+            <form class="row p-4 border rounded"> <!--ALERTA + CAMPOS-->
                 <div class="alert alert-danger" role="alert">
                     Faltan algunos campos por rellenar.
 
                 </div>
-                <div class="col-5">
+
+                <div class="col-5 py-2">
                     <label for="inputCardnumber" class="form-label">Número de tarjeta</label>
                     <input type="text" class="form-control" id="inputCardnumber" placeholder="XXXXXXXXXXXXXXXX">
                 </div>
-                <div class="col-3">
+                <div class="col-3 py-2">
                     <label for="inputCVC" class="form-label">CVC</label>
                     <input type="text" class="form-control" id="inputCVC" placeholder="000">
                 </div>
 
-                <div class="col-4">
+                <div class="col-4 py-2">
                     <label for="inputAmount" class="form-label">Cantidad</label>
                     <div class="input-group">
                         <span class="input-group-text">€</span>
@@ -38,22 +39,22 @@
                     </div>
                 </div>
 
-                <div class="col-6">
+                <div class="col-6 py-2">
                     <label for="inputName" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="inputName">
                 </div>
 
-                <div class="col-6">
+                <div class="col-6 py-2">
                     <label for="inputLastName" class="form-label">Apellido</label>
                     <input type="text" class="form-control" id="inputLastName">
                 </div>
 
-                <div class="col-6">
+                <div class="col-6 py-2">
                     <label for="inputCity" class="form-label">Ciudad</label>
                     <input type="text" class="form-control" id="inputCity">
                 </div>
 
-                <div class="col-3">
+                <div class="col-3 py-2">
                     <label for="inputState" class="form-label">Provincia</label>
                     <select id="inputState" class="form-select">
                         <option selected>Elige…</option>
@@ -113,15 +114,15 @@
                     </select>
                 </div>
 
-                <div class="col-3">
+                <div class="col-3 py-2">
                     <label for="inputZip" class="form-label">Código Postal</label>
                     <input type="text" class="form-control" id="inputZip">
                 </div>
 
 
                 <footer>
-                    <div class="row g-2">
-                        <div class="col-3"> <!---TARJETAS-->
+                    <div class="row g-2 py-2"> <!---TARJETAS-->
+                        <div class="col-3"> 
                             <label for="cardType">Aceptamos:</label>
                             <br>
                             <br>
@@ -165,7 +166,7 @@
 
                         </div>
 
-                        <div class="col-6"> <!---OBSERVACIONES-->
+                        <div class="col-6 py-2"> <!---OBSERVACIONES-->
                             <label for="inputPassword5" class="form-label">Comentarios</label>
                             <textarea id="comments" class="form-control" rows="3"
                                 aria-describedby="passwordHelpBlock"> </textarea>
@@ -178,8 +179,8 @@
                 </footer>
             </form>
 
-            <form class="row p-4 bg-light border rounded">
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end"> <!--BOTONES-->
+            <form class="row p-4 bg-light border rounded"> <!--BOTONES-->
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end"> 
                     <button type="reset" class="btn btn-secondary">Cancelar</button>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </div>
